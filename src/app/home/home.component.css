@@ -1,0 +1,21 @@
+.star-icon::before{
+content: "";
+background-color: white;
+position: absolute;
+width: 100px;
+height: 4px;
+top: 45%;
+left: 75px;
+}
+
+.star-icon::after{
+content: "";
+background-color: white;
+position: absolute;
+width: 100px;
+height: 4px;
+top: 45%;
+right: 75px;
+}
+
+

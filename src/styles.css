@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --main-bg-color:#2C3E50;
+  --second-bg-color:#1ABC9C;
+  --last-footer-bg-color:#1A252F;
+}
+
+.bg-Light-Sea-Green{
+    background-color: var(--second-bg-color);
+}
+
+.bg-Madison{
+    background-color: var(--main-bg-color);
+}
+
+.text-Madison{
+    color: var(--main-bg-color);
+}
+
+.w-65{
+    width: 65%;
+}
+
+.mt-10{
+    margin-top:120px;
+}

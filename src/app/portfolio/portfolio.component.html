@@ -1,0 +1,69 @@
+<div class="portfolio-data container mt-10 mb-5">
+    <h2 class="text-center fw-bold fs-1 text-Madison">PORTFOLIO COMPONENT</h2>
+    <div class="star-icon position-relative d-flex justify-content-center mt-1 mb-3"><i class="fa-solid fa-star  text-center text-Madison"></i></div>
+    <div class="row gy-4" (click)="clickOnImage($event)">
+        <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/poert1.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/port2.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/port3.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/poert1.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/port2.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6">
+            <div class="item position-relative overflow-hidden rounded-2">
+                <div class="img-layer"><img class="w-100" src="assets/imgs/port3.png" alt=""></div>
+                <div class="hover-layer position-absolute d-flex justify-content-center align-items-center">
+                    <i  class="text-white fa-solid fa-plus fa-6x"></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template [ngIf]="isClicked"><div class="img-modal-layer position-fixed top-0 bottom-0 start-0 end-0 bg-layer d-flex justify-content-center align-items-center" (click)="clickOnImage($event)">
+    <img class="w-35 img-modal" [src]="imageSourse" alt="">
+</div></ng-template>
+
