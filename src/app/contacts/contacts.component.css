@@ -35,3 +35,7 @@ right: 40%;
     border-bottom:1px solid #dee2e6;
     box-shadow: none;
 }
+.btn-success{
+   background-color:var(--second-bg-color);
+   border: transparent;
+}

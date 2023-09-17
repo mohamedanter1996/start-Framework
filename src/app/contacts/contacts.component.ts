@@ -1,15 +1,18 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
   styleUrls: ['./contacts.component.css']
 })
-export class ContactsComponent {
+export class ContactsComponent  {
+ 
   inputNameValue:string="";
   inputAgeValue:number=0;
   inputEmailValue:string="";
   inputPasswordValue:string="";
+ 
+ 
   getInputValue(event:any){
 
 if(event.target.id=="userName"){
