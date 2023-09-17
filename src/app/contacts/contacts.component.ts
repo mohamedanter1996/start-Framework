@@ -11,10 +11,11 @@ export class ContactsComponent  {
   inputAgeValue:number=0;
   inputEmailValue:string="";
   inputPasswordValue:string="";
+  typedFirstTime:boolean=false;
  
  
   getInputValue(event:any){
-
+this.typedFirstTime=true;
 if(event.target.id=="userName"){
 this.inputNameValue=event.target.value;
 }
