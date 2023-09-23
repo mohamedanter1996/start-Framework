@@ -1,0 +1,41 @@
+.star-icon::before{
+content: "";
+background-color: var(--main-bg-color);
+position: absolute;
+width: 100px;
+height: 4px;
+top: 45%;
+left: 40%;
+}
+
+.star-icon::after{
+content: "";
+background-color: var(--main-bg-color);
+position: absolute;
+width: 100px;
+height: 4px;
+top: 45%;
+right: 40%;
+}
+
+.form-label{
+    color: var(--second-bg-color);
+  
+}
+
+
+
+.form-control{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.form-control:focus{
+    border-bottom:1px solid #dee2e6;
+    box-shadow: none;
+}
+.btn-success{
+   background-color:var(--second-bg-color);
+   border: transparent;
+}

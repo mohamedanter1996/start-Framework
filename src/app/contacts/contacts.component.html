@@ -1,0 +1,27 @@
+<div class="contacts-data container mt-10 mb-5">
+
+        <h2 class="text-center fw-bold fs-1 text-Madison">CONATCT SECTION</h2>
+    <div class="star-icon position-relative d-flex justify-content-center mt-1 mb-3"><i class="fa-solid fa-star  text-center text-Madison"></i></div>
+    <form action="" class="col-8 m-auto">
+        <div class="mb-3">
+  <label for="userName" class="form-label animate__animated" [ngClass]="{'animate__fadeInUp':(inputNameValue.length>0),'animate__fadeOutDown':(inputNameValue.length==0),' opacity-0':typedFirstTime==false}">userName :</label>
+  <input type="text" class="form-control" id="userName" placeholder="userName" (input)="getInputValue($event)">
+</div>
+
+        <div class="mb-3">
+  <label for="userAge" class="form-label animate__animated " [ngClass]="{'animate__fadeInUp':inputAgeValue>0,'animate__fadeOutDown':inputAgeValue==0,' opacity-0':typedFirstTime==false}">userAge :</label>
+  <input type="number" class="form-control" id="userAge" placeholder="userAge" (input)="getInputValue($event)">
+</div>
+
+        <div class="mb-3">
+  <label for="userEmail" class="form-label animate__animated " [ngClass]="{'animate__fadeInUp':inputEmailValue.length>0,'animate__fadeOutDown':inputEmailValue.length==0,' opacity-0':typedFirstTime==false}">userEmail :</label>
+  <input type="email" class="form-control" id="userEmail" placeholder="userEmail" (input)="getInputValue($event)">
+</div>
+
+        <div class="mb-3">
+  <label for="userPassword" class="form-label animate__animated " [ngClass]="{'animate__fadeInUp':inputPasswordValue.length>0,'animate__fadeOutDown':inputPasswordValue.length==0,' opacity-0':typedFirstTime==false}">userPassword :</label>
+  <input type="password" class="form-control" id="userPassword" placeholder="userPassword" (input)="getInputValue($event)">
+</div>
+<button class="btn btn-success" type="button">send Messsage</button>
+    </form>
+</div>
